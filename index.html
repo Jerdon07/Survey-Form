@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- #title -->
+    <h1 id="title">Survey Form</h1>
+    <!-- #description -->
+    <p id="description">This is my Survey Form</p>
+
+    <!-- #survey-form -->
+    <form id="survey-form">
+        <!-- #name-label -->
+        <label id="name-label">Enter your name:
+            <!-- #name -->
+            <input type="text" id="name" placeholder="Name" required>
+        </label>
+        <!-- #email-label -->
+        <label id="email-label">Enter your email:
+            <!-- #email -->
+            <input type="email" id="email" placeholder="Email" required>
+        </label>
+        <!-- #number-label -->
+        <label id="number-label">Enter you number:
+            <!-- #number -->
+            <input type="number" name="" id="number" placeholder="Number"min="6" max="8">
+        </label>
+
+        <!-- #dropdown -->
+        <select id="dropdown">
+            <!-- no.13 -->
+            <option></option>
+            <option></option>
+        </select>
+
+        <!-- no.14 -->
+        <fieldset>
+            <label><input type="radio" name="1" value="1" checked></label>
+            <label><input type="radio" name="1" value="2"></label>
+        </fieldset>
+
+        <input type="checkbox" value="value1" name="test"> Button 1
+        <input type="checkbox" value="value2" name="test">Button 2
+
+        <textarea placeholder="Additional Comments"></textarea>
+
+        <button id="submit"></button>
+
+    </form>
+</body>
+</html>
